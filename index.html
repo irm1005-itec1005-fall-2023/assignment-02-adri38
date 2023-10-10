@@ -1,33 +1,240 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+  <head>
+    <!-- Set the page title -->
+    <title>Orchid care</title>
 
-<head>
-  <!-- Set the page title -->
-  <title>Assignment 02</title>
+    <!-- Set the charset we're using to UTF-8 -->
+    <meta charset="UTF-8" />
 
-  <!-- Set the charset we're using to UTF-8 -->
-  <meta charset="utf-8" />
+    <!-- Set the screens default zoom / scale to 1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Set the screens default zoom / scale to 1 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Specifies the document mode for Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- Specifies the document mode for Internet Explorer -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS -->
+    <!-- The following CSS has been added so that the page
+    doesn't look super awful -->
+    <!-- Ignore everything in the <style> tag for now -->
+    <!-- We will learn about CSS later in the course -->
+    <style>
+      /*
+        These styles set the font, font-size, and add a
+        little bit of space between lines
+      */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+      /*
+        These styles make sure that any super wide images
+        don't overflow the page width
+      */
+      img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
 
-  <!-- We are using a CSS Reset file to standardize browser default css -->
-  <link rel="stylesheet" href="./reset.css" />
+    <header>
+     <img src="2291219-200.png" alt="logo of a potted vine">
+     <h2>Happy Plant Gardening</h2>
+     <nav>
+      <h3>Site Navigation</h3>
+      <ul>
+        <li><a href=#>Home</a></li>
+        <li><a href=#>About</a></li>
+        <li><a href=#>Contact</a></li>
+      </ul>
+     </nav>
+    </header>
 
-  <!-- This is where all of our awesome CSS code goes -->
-  <link rel="stylesheet" href="./style.css" />
-</head>
+    <main>
+      <section>
+      <h1>Caring for Orchids While in Bloom</h1>
+        <img src="photo-1586799958784-8687bc5d659f.avif" alt="purple orchid">
+        <p><i>(This page explains caring for orchids while in bloom. If your orchid has finished flowering, or you require more in depth potting instructions, please click <a href=#>here</a>.)</i></p>
+      </section>
 
-<body>
-  <!--
+      <section>
+        <h2>Quick tips:</h2>
+        <ul>
+          <li>After purchasing an orchid, <em>do not</em> repot until flowering has finished.</li>
+          <li>Orchids require bright, indirect light. Direct sunlight will burn them.</li>
+          <li>Water orchids after soil has completely dried.</li>
+        </ul>
+      </section>
 
-    YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+      <section>
+        <h2>Overview</h2>
+          <p>Most species of orchid will bloom once a year. When you purchase an orchid plant from the store, chances are it is already flowering. Orchids are often sold in medium that is unsuitable for the plant and can cause the roots to rot.</p>
+          <p> You may be tempted to repot your new plant as soon as possible, but is very important <strong>not to repot an orchid while it is in bloom.</strong></p>
+          <p>Keeping your orchid healthy during the first bloom is important if you want these lovely flowers to come back year after year.</p>
+      </section>
 
-  -->
-  <h1>Assignment 02</h1>
-</body>
+      <section>
+        <h2>Watering</h2>
+        <p>Orchids need to be watered once the potting medium has dried completely. Once dry, pour in room tempurature water to soak the plant.</p>
+        <p>Orchids are very susceptible to <a href=#>root rot</a>, so it is important not to over water them.</p>
+        <p>You don't need to use an ice cube. I would reccomend against it.</p>
+      </section>
 
+      <section>
+        <h2>Lighting</h2>
+        <p>Orchids require bright, indirect sunlight to grow healthily. Direct sunlight can burn the leaves, causing your orchid to shrivel and die.</p>
+      </section>
+
+      <section>
+        <h2>Climate</h2>
+        <p>Orchids are tropical plants by nature, meaning they do best in warm, humid environments. If you live in a dry area, you can simulate this by misting the orchid with room tempurature water, avoiding the delicate flowers.</p>
+      </section>
+
+      <section>
+        <h3>Feedback</h3>
+        <p>Questions about plant care? Concerns about the content shown on the page? Any other coment?</p>
+        <p>Please fill out the form below, and I will be in touch as soon as possible.</p>
+      </section>
+
+      <section>
+        <h3>Form</h3>
+        <form>
+          <fieldset>
+            <legend>Information</legend>
+            <Label for="name">Name</Label>
+            <input type="text" name="name" id="name" placeholder="Jane Doe" autocomplete="name" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="janedoe@email.com" autocomplete="email" required>
+          </fieldset>
+          <fieldset>
+            <legend>Feedback</legend>
+             <label>Feedback type:</label>
+            <input type=radio name="Feedback" id="question" value="question" checked>
+             <label for="question">Question</label>
+            <input type="radio" name="Feedback" id="comment" value="comment">
+              <label for="comment">Comment</label>
+            <input type="radio" name="Feedback" id="concern" value="concern">
+              <label for="concern">Concern</label><br>
+
+            <label for="text">Write your feedback here:</label><br>
+              <textarea name="text" id="text" rows="10" cols="40" required></textarea>
+          </fieldset>
+          <fieldset>
+            <legend>Consent</legend>
+            <input type="checkbox" id="marketing" name="marketing">
+              <label for="marketing">I consent to receiving marketing emails</label><br>
+            <input type="checkbox" id="terms" name="terms" required>
+              <label for="terms">I have read and agreed to the <a href=#>Terms and Conditions</a></label>
+          </fieldset>
+          <input type="submit">
+        </form>
+      </section>
+
+    </main>
+
+    <footer>
+      <img src="2291219-200.png" alt="logo of a potted vine">
+      <h4>Happy Plant Gardening</h4>
+      <nav>
+      <ul>
+        <li><a href=#>Home</a></li>
+        <li><a href=#>About</a></li>
+        <li><a href=#>Contact</a></li>
+      </ul>
+    </nav>
+      <section>
+        <h4>Contact</h4>
+        <p>happyplantgardening@email.com</p>
+        <p>87 Dresden Avenue</p>
+        <p>Toronto, ON</p>
+        <p>Q7F 2W8</p>
+      </section>
+      <p>&copy; 2023</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+
+      LIST ANY CITATIONS HERE
+
+        * A
+        * B
+
+    -->
+
+    <!--
+
+      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+
+    -->
+
+  </body>
 </html>
