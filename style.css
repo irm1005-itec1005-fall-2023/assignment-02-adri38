@@ -10,29 +10,49 @@ header {
   flex-direction: row;
   justify-content: space-between;
   border: solid;
+  align-items: center;
 }
-
 .logodiv {
   display: flex;
   align-items: center; 
 }
-
+h1 {
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: 200
+}
 header img {
   max-width: 100px;
+  max-height: 80px;
   }
 
 header nav {
-  display: flex;
+display: flex;
+ margin: 1rem;
+ justify-content: flex-start;
   
   }
 
 ul {
-  gap: 2rem;
+  gap: 4rem;
   display: flex;
-  justify-content: space-between;
+  
   align-items: center;
 }
+li {
+  list-style: none;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+}
 
+a:hover {
+  text-decoration: underline;
+}
+.button {
+  margin: 1rem;
+}
 
 main {
   border: solid;
