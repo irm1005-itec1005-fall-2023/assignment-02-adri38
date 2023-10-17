@@ -1,19 +1,107 @@
-/*
- * Assignment 02
- * CSS FILE
- */
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid;
+}
+
+.logodiv {
+  display: flex;
+  align-items: center; 
+}
+
+header img {
+  max-width: 100px;
+  }
+
+header nav {
+  display: flex;
+  
+  }
+
+ul {
+  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #023047;
+
+main {
+  border: solid;
+  justify-content: flex-start;
+  display: flex;
+  justify-content: space-between;
+  
 }
+
+main .article { 
+  border: solid;
+  margin: 1rem;
+  width: 700rem;
+  
+}
+
+.article h2 {
+  margin: 1rem;
+}
+main .foodpic {
+  margin: 1rem;
+  max-width: 40rem;
+}
+.article h3 {
+  margin: 1rem;
+}
+.article p {
+  margin: 1rem;
+}
+
+.about {
+  
+}
+main .topabout {
+  border: solid;
+  
+  margin: 1rem;
+}
+main .author {
+  max-width: 10rem;
+  padding: 1rem 1rem 0 1rem;
+}
+.about h3 {
+  margin: 0 1rem;
+}
+.about p {
+  margin: 1rem;
+}
+
+footer {
+  border: solid;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footlogo {
+  display: flex;
+  align-items: center;
+  
+}
+footer img {
+  max-width: 100px;
+}
+
+footer nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
