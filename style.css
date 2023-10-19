@@ -1,16 +1,19 @@
 body {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   padding: 0;
   margin: 0;
+  background:
 }
 
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: solid;
+  background-color: rgb(252, 238, 238);
   align-items: center;
+
 }
 .logodiv {
   display: flex;
@@ -27,7 +30,8 @@ header img {
   }
 
 header nav {
-display: flex;
+  
+ display: flex;
  margin: 1rem;
  justify-content: flex-start;
   
@@ -40,26 +44,41 @@ ul {
   align-items: center;
 }
 li {
+  
   list-style: none;
   font-size: 18px;
 }
-a {
+header li a {
+  font-size: 17px;
+  font-family: cursive;
+  color: black;
   text-decoration: none;
 }
 
-a:hover {
+header a:hover {
+  color: rgb(255, 194, 195);
   text-decoration: underline;
 }
 .button {
+  border: solid 2px;
+  border-color: gray;
+  border-radius: 0.5rem;
+  padding: 5px;
   margin: 1rem;
+}
+.button a {
+  text-decoration: none;
+  color: gray;
+}
+.button a:hover {
+  color:gray;
+  text-decoration: underline;
 }
 
 main {
-  border: solid;
-  justify-content: flex-start;
   display: flex;
   justify-content: space-between;
-  
+  height: 100%;
 }
 
 main .article { 
@@ -83,8 +102,17 @@ main .foodpic {
   margin: 1rem;
 }
 
-.about {
-  
+main .sidebar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: aquamarine;
+  align-items: center;
+
+}
+
+.bottomabout {
+  align-self: flex-end;
 }
 main .topabout {
   border: solid;
@@ -100,28 +128,127 @@ main .author {
 }
 .about p {
   margin: 1rem;
+} 
+
+.sidebarformatting {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.furtherformat {
+  display: flex;
+  flex-direction: column;
 }
 
-footer {
-  border: solid;
-  
+
+.linecat {
+ max-width: 100px; 
+ align-self: center;
+ margin: 1rem 0 0 0;
+}
+
+.trending {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  border: solid;
+  margin: 0 1rem;
+}
+
+.trending h2 {
+  margin: 1rem;
+  text-align: center;
+  font-size: 16px;
+  padding: 0;
+}
+.tr1 {
+  display: flex;
+  background-color: black;
+}
+
+.tr2 {
+  display: flex;
+  background-color: blanchedalmond;
+}
+.tr3 {
+  display: flex;
+  background-color: rgb(57, 57, 110);
+}
+
+.kittycat {
+  background-color: b;
+  justify-self: flex-end;
+}
+
+
+footer {
+  background-color: rgb(245, 129, 148);
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .footlogo {
   display: flex;
   align-items: center;
-  
+  justify-content: space-between;
 }
+.footlogo h3 {
+  
+  padding: 5px;
+  font-size: 10px;
+}
+
 footer img {
-  max-width: 100px;
+  max-width: 40px;
 }
 
 footer nav {
   display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  
+}
+
+
+footer li a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+}
+
+footer li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+
+footer form {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .emailform {
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.emailbox {
 
+  border-color: ;
+  background-color:pink ;
+}
+.label {
+  padding: ;
+  margin: 1 1rem 0 1rem
+}
+input {
+  margin: 5px;
+  padding: 3px;
+  border-radius: 0.5rem;
+  background-color: pink;
+  color: gray;
+  border-color: gray;
+}
