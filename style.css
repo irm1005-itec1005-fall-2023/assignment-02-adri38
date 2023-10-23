@@ -4,9 +4,8 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  background:
-}
-
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: rgb(255, 210, 217);}
 header {
   display: flex;
   flex-direction: row;
@@ -20,7 +19,7 @@ header {
   align-items: center; 
 }
 h1 {
-  font-family: cursive;
+  
   font-size: 25px;
   font-weight: 200
 }
@@ -48,9 +47,9 @@ li {
   list-style: none;
   font-size: 18px;
 }
+
 header li a {
   font-size: 17px;
-  font-family: cursive;
   color: black;
   text-decoration: none;
 }
@@ -76,12 +75,15 @@ header a:hover {
 }
 
 main {
+  
   display: flex;
   justify-content: space-between;
   height: 100%;
 }
 
+
 main .article { 
+  background-color: rgb(252, 238, 238);
   border: solid;
   margin: 1rem;
   width: 700rem;
@@ -103,23 +105,26 @@ main .foodpic {
 }
 
 main .sidebar {
+  
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  background-color: aquamarine;
+
   align-items: center;
 
 }
 
 .bottomabout {
+  
   align-self: flex-end;
 }
 main .topabout {
   border: solid;
-  
+  background-color: rgb(252, 238, 238);
   margin: 1rem;
 }
 main .author {
+  background-color: rgb(252, 238, 238);
   max-width: 10rem;
   padding: 1rem 1rem 0 1rem;
 }
@@ -131,12 +136,14 @@ main .author {
 } 
 
 .sidebarformatting {
+  
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
 }
 .furtherformat {
+  
   display: flex;
   flex-direction: column;
 }
@@ -149,6 +156,7 @@ main .author {
 }
 
 .trending {
+  background-color: rgb(252, 238, 238);
   display: flex;
   flex-direction: column;
   border: solid;
@@ -162,17 +170,25 @@ main .author {
   padding: 0;
 }
 .tr1 {
+  border-top: solid;
   display: flex;
-  background-color: black;
+  padding: 1rem;
+  }
+
+.tr1 a {
+  color: ,;
 }
 
 .tr2 {
+  border-top: solid;
+  padding: 1rem;
   display: flex;
-  background-color: blanchedalmond;
+
 }
 .tr3 {
+  border-top: solid;
   display: flex;
-  background-color: rgb(57, 57, 110);
+  padding: 1rem;
 }
 
 .kittycat {
