@@ -87,7 +87,7 @@ main .article {
   border: solid;
   margin: 1rem;
   width: 700rem;
-  
+  align-content: center;
 }
 
 .article h2 {
@@ -96,6 +96,7 @@ main .article {
 main .foodpic {
   margin: 1rem;
   max-width: 40rem;
+  
 }
 .article h3 {
   margin: 1rem;
